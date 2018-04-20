@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/set2"
+    tools:context="pro.himanshu.cusatreader.ProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="513dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/textViewUserEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+
+       <Button
+            android:id="@+id/s1"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="#67ae380d"
+            android:text="@string/S1"
+            android:textColor="#701c0941"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/s2"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="#f13bca8a"
+            android:text="@string/S2"
+            android:textColor="#ffffff"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/s3"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="#cc9e06"
+            android:text="@string/S3"
+            android:textColor="#ffffff"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/s4"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="#0dc726"
+            android:text="@string/S4"
+            android:textColor="#ffffff"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/s5"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="#33d985"
+            android:text="@string/S5"
+            android:textColor="#ffffff"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/s6"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="#fa399cec"
+            android:text="@string/S6"
+            android:textColor="#ffffff"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/s7"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="#ef7e21"
+            android:text="@string/S7"
+            android:textColor="#ffffff"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/s8"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="#e70d4b"
+            android:text="@string/S8"
+            android:textColor="#ffffff"
+            android:visibility="visible" />
+        <Button
+            android:id="@+id/buttonLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/Logout"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
