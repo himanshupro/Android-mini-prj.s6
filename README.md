@@ -1,2 +1,2 @@
-# Android-mini-prj.s6
+# Android-based-mini-prj
 CUSAT Reader studying App. 
